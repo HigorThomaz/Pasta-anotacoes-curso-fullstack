@@ -2,7 +2,10 @@ cd (diretório) > vai para pasta selecionada
 cd .. > volta uma pasta
 ls > mostra lista de todas os diretórios
 cntrl L > apaga o histórico
-
+mkdir > faz um diretório
+rmdir  /S /Q > remove um diretório
+echo > escreve algo no terminal
+echo (o que foi escrito no echo) ">" > cria um arquivo com o nome do echo 
 
 
 git status >mostra o status
