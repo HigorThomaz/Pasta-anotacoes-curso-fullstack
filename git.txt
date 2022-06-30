@@ -9,4 +9,4 @@ git status >mostra o status
 git clone > faz o download de um repositório do github
 git add > . ou -A adiciona (TODOS) os arquivos para o repositório local, em estado de stage
 git commmit -m "comentário sobre a mudança no arquivo" > prepara o arquivo para ser mandado para a nuvem com um comentário
-git push > envia o arquivo para o GitHub 
+git push origin main (brench que vai ser enviada)> envia o arquivo para o GitHub 
