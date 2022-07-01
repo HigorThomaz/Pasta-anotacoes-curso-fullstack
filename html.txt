@@ -28,4 +28,14 @@
 
 O target neste momento vai servir para nos ajudar a abrir nossos links em outra aba do navegador usando o valor _blank.) São alguns dos elementos
 
+<img> > não precisa de tag de fechamento, é utilizado para colocar imagens, com apenas 2 atributos, sendo eles: src e alt. 
+
+O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na página.
+
+O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
+
+<ul> > cria uma lista não ordenada
+<ol> > cria uma lista ordenada
+<li> > é um item dentro de uma lista, pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
+
 
