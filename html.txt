@@ -39,3 +39,34 @@ O alt não é obrigatório mas é altamente recomendado por melhorar a acessibil
 <li> > é um item dentro de uma lista, pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
 
 
+editar estilos.
+Em um arquivo renomeado com .css
+
+id > só pode ser usado uma vez, no css3 # usado para id
+
+class > pode ser usado mais vezes, . usado para class
+
+Geral 
+margin
+padding
+border
+color
+
+Textos
+font- (style, size, family e weigth )
+text- (transform e decoration
+
+Listas
+list-style-type
+list-style-image
+
+Width > largura
+Height > altura
+
+Max-width
+Max-height
+
+Margin
+
+Text align
+
