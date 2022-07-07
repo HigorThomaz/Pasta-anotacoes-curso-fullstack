@@ -1,0 +1,56 @@
+Flexbox
+
+diplay flex
+
+row →
+row reverse ← 
+column ↓
+column reverse ↑
+
+nowrap > não permite a quebra de linha
+wrap > faz com que a linha quebre
+wrap-reverse  > quebra de linha mas a linha quebrada vai para cima
+
+flex-flow
+
+flex-start
+flex-end
+center
+space-between
+space-around
+
+
+align-items
+center
+stretch
+flex-start
+flex-end
+baseline
+
+align-content
+center
+stretch
+flex-start
+flex-end
+space-between
+space-around
+
+
+flex-grow
+flex-basis > propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto
+flex-shrink > propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item
+
+
+flex > atalho para todos acima
+flex: 1 > grow = 1, shrink = 1, basis= 0;
+
+
+order > ordenação dos itens
+
+align-self > alinhamento de modo individual sobre um determinado item
+auto > usado com align-items dentro do container 
+flex-start
+flex-end
+center
+stretch
+baseline
