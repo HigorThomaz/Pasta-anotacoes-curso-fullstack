@@ -13,28 +13,31 @@ wrap-reverse  > quebra de linha mas a linha quebrada vai para cima
 
 flex-flow
 
+
+justify-content > usado para organizar os itens no eixo X  (se a direção foi mudada com flex-direction justify-content passa a ser usado na vertical){
 flex-start
 flex-end
 center
 space-between
 space-around
+}
 
-
-align-items
+align-items  > usado para organizar os itens no eixo Y {
 center
 stretch
 flex-start
 flex-end
 baseline
+}
 
-align-content
+align-content {
 center
 stretch
 flex-start
 flex-end
 space-between
 space-around
-
+}
 
 flex-grow
 flex-basis > propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto
@@ -47,10 +50,11 @@ flex: 1 > grow = 1, shrink = 1, basis= 0;
 
 order > ordenação dos itens
 
-align-self > alinhamento de modo individual sobre um determinado item
+align-self > alinhamento de modo individual sobre um determinado item {
 auto > usado com align-items dentro do container 
 flex-start
 flex-end
 center
 stretch
 baseline
+}
